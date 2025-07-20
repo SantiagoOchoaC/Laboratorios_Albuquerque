@@ -1,0 +1,51 @@
+CREATE TABLE cliente(
+  cedula INT(10) PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  celular INT(10) NOT NULL
+);
+
+CREATE TABLE empresa(
+  nit INT(10) PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL,
+  presupuesto INT(10) NOT NULL,
+  cliente INT(10),
+  FOREIGN KEY(cliente) REFERENCES cliente
+);
+
+CREATE TABLE proyecto(
+  codigo INT(10) PRIMARY KEY,
+  fechacreacion DATE NOT NULL,
+  valor INT(10) NOT NULL,
+  cliente INT(10),
+  empresa INT(10),
+  FOREIGN KEY(cliente) REFERENCES cliente,
+  FOREIGN KEY(empresa) REFERENCES empresa
+);
+
+CREATE TABLE quimico(
+  cedula INT(10) PRIMARY KEY CHECK(cedula>=0),
+  nombre VARCHAR(20) NOT NULL,
+  especialidad VARCHAR(20) NOT NULL,
+  mi_contrato INT(10) UNIQUE,
+  FOREIGN KEY(mi_contrato) REFERENCES contrato
+);
+
+CREATE TABLE mantenimiento(
+  codigo INT(10) PRIMARY KEY CHECK(codigo>=0),
+  fecha DATE NOT NULL,
+  valor INT(10) NOT NULL CHECK(valor>=0),
+  mi_receptor INT(10) NOT NULL,
+  mi_ejecutor INT(10),
+  FOREIGN KEY(mi_receptor) REFERENCES quimico,
+  FOREIGN KEY(mi_ejecutor) REFERENCES quimico,
+  CHECK(mi_ejecutor<>mi_receptor)
+);
+
+CREATE TABLE contrato(
+  codigo INT(10) PRIMARY KEY CHECK(codigo>=0),
+  valor INT(10) NOT NULL CHECK(valor>=0),
+  fecha_inicio DATE NOT NULL,
+  fecha_fin DATE NOT NULL,
+  CHECK(fecha_inicio<fecha_fin)
+);
+
