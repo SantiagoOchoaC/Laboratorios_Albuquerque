@@ -3,7 +3,7 @@ include "../includes/header.php";
 ?>
 
 <!-- TÍTULO. Cambiarlo, pero dejar especificada la analogía -->
-<h1 class="mt-3">Contrato del químico receptor según mantenimiento</h1>
+<h1 class="mt-3">Contrato del químico solicitante según mantenimiento</h1>
 
 <p class="mt-3">
     Recibe el código de un mantenimiento. Se debe mostrar todos los datos del contrato asociado

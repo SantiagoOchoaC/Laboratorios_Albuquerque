@@ -30,7 +30,7 @@
         <h2>Integrantes</h2>
         <ul>
             <li>Juan Manuel Henao Rodriguez</li>
-            <li>Samuel Ramirez</li>
+            <li>Samuel Ramirez Muñoz</li>
             <li>Santiago Ochoa Cardona</li>
         </ul>
     </div>
@@ -44,13 +44,13 @@
     <div class="enlaces">
         <h2>Enlaces</h2>
         <ul>
-            <li><a href="cliente/cliente.php">Entidad analoga a MECANICO(QUIMICO)</a></li>
-            <li><a href="proyecto/proyecto.php">Entidad análoga a REPARACION (MANTENIMIENTO)</a></li>
-            <li><a href="empresa/empresa.php">Entidad análoga a CONTRATO (CONTRATO)</a></li>
-            <li><a href="consultas/consulta1.php">Consulta 1</a></li>
-            <li><a href="consultas/consulta2.php">Consulta 2</a></li>
-            <li><a href="busqueda/busqueda1.php">Búsqueda 1</a></li>
-            <li><a href="busqueda/busqueda2.php">Búsqueda 2</a></li>
+            <a href="cliente/cliente.php">Entidad analoga a MECANICO(QUIMICO)</a><br>
+            <a href="proyecto/proyecto.php">Entidad análoga a REPARACION (MANTENIMIENTO)</a><br>
+            <a href="empresa/empresa.php">Entidad análoga a CONTRATO (CONTRATO)</a><br>
+            <a href="consultas/consulta1.php">Consulta 1</a><br>
+            <a href="consultas/consulta2.php">Consulta 2</a><br>
+            <a href="busqueda/busqueda1.php">Búsqueda 1</a><br>
+            <a href="busqueda/busqueda2.php">Búsqueda 2</a>
         </ul>
     </div>
 </div>

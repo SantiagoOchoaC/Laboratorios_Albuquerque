@@ -3,7 +3,7 @@ include "../includes/header.php";
 ?>
 
 <!-- TÍTULO. Cambiarlo, pero dejar especificada la analogía -->
-<h1 class="mt-3">Mecánicos con contrato, ≥2 reparaciones y nunca receptores</h1>
+<h1 class="mt-3">Mecánicos con contrato, ≥2 reparaciones y nunca solicitantes</h1>
 
 <p class="mt-3">
     Químicos que tienen contrato
