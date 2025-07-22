@@ -27,7 +27,7 @@ include "../includes/header.php";
         
         <!-- Consultar la lista de quimicos y desplegarlos -->
         <div class="mb-3">
-            <label for="mi_receptor" class="form-label">Receptor</label>
+            <label for="mi_receptor" class="form-label">Solicitante</label>
             <select name="mi_receptor" id="mi_receptor" class="form-select">
                 
                 <!-- Option por defecto -->
@@ -110,7 +110,7 @@ if($resultadoProyecto and $resultadoProyecto->num_rows > 0):
                 <th scope="col" class="text-center">Código</th>
                 <th scope="col" class="text-center">Fecha</th>
                 <th scope="col" class="text-center">Valor</th>
-                <th scope="col" class="text-center">Receptor</th>
+                <th scope="col" class="text-center">Solicitante</th>
                 <th scope="col" class="text-center">Ejecutor</th>
                 <th scope="col" class="text-center">Acciones</th>
             </tr>

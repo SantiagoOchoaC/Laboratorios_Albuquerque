@@ -8,7 +8,7 @@ include "../includes/header.php";
 <p class="mt-3">
     Químicos que tienen contrato
     asociado, que han ejecutado al menos dos mantenimientos y que
-    nunca han sido receptores.
+    nunca han sido solicitantes.
 </p>
 
 <?php

@@ -38,7 +38,7 @@
     <div class="modelo">
         <h2>Modelo E-R</h2>
         <p></p>
-        <img src="modelo.svg">
+        <img src="modelo1.png">
     </div>
 
     <div class="enlaces">

@@ -9,7 +9,7 @@ include "../includes/header.php";
     Debe mostrar los datos de los tres mantenimientos de mayor valor
     que no tienen químico ejecutor (en caso de empates, usted decide como
     proceder). Se debe mostrar para cada uno de estos tres mantenimientos los datos
-    correspondientes del químico receptor.
+    correspondientes del químico solicitante.
 </p>
 
 <?php
@@ -41,7 +41,7 @@ if($resultadoC1 and $resultadoC1->num_rows > 0):
                 <th scope="col" class="text-center">Código</th>
                 <th scope="col" class="text-center">Fecha</th>
                 <th scope="col" class="text-center">Valor</th>
-                <th scope="col" class="text-center">Receptor</th>
+                <th scope="col" class="text-center">Solicitante</th>
                 <th scope="col" class="text-center">Nombre</th>
                 <th scope="col" class="text-center">Especialidad</th>
                 <th scope="col" class="text-center">Contrato</th>

@@ -7,7 +7,7 @@ include "../includes/header.php";
 
 <p class="mt-3">
     Recibe el código de un mantenimiento. Se debe mostrar todos los datos del contrato asociado
-    al químico que recibió (químico receptor) dicho mantenimiento.
+    al químico que solicito (químico solicitante) dicho mantenimiento.
 </p>
 
 <!-- FORMULARIO. Cambiar los campos de acuerdo a su trabajo -->

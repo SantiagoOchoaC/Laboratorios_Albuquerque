@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'):
                 <th scope="col" class="text-center">Código</th>
                 <th scope="col" class="text-center">Fecha</th>
                 <th scope="col" class="text-center">Valor</th>
-                <th scope="col" class="text-center">Receptor</th>
+                <th scope="col" class="text-center">Solicitante</th>
                 <th scope="col" class="text-center">Ejecutor</th>
             </tr>
         </thead>
